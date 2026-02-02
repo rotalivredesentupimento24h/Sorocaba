@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+
+<title>Desentupidora em Sorocaba 24h | Rota Livre Limpa Fossa e Esgoto</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Desentupidora em Sorocaba 24 horas. Limpa fossa, desentupimento de ralos, pias e esgoto. Atendimento imediato, equipe profissional, preço justo e serviço garantido. WhatsApp rápido.">
+
+<meta name="robots" content="index, follow">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+body{
+background:linear-gradient(120deg,#1e3c72,#2a5298,#3b82f6);
+color:#fff;
+overflow-x:hidden
+}
+
+/* HEADER */
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:14px 20px
+}
+
+.logo-topo{
+height:52px;
+width:auto;
+object-fit:contain
+}
+
+.menu-btn{
+font-size:34px;
+cursor:pointer
+}
+
+.header-line{
+width:100%;
+height:2px;
+background:rgba(255,255,255,.25)
+}
+
+/* MENU */
+.overlay{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.55);
+opacity:0;
+pointer-events:none;
+transition:.3s;
+z-index:98
+}
+.overlay.show{opacity:1;pointer-events:auto}
+
+.menu{
+position:fixed;
+top:0;
+right:-280px;
+width:260px;
+height:100%;
+background:rgba(11,60,120,.97);
+backdrop-filter:blur(6px);
+padding:40px 20px;
+transition:.4s;
+z-index:99;
+box-shadow:-10px 0 30px rgba(0,0,0,.4)
+}
+.menu.show{right:0}
+
+.menu-logo{
+max-width:160px;
+width:100%;
+height:auto;
+display:block;
+margin:10px auto 35px
+}
+
+.menu a{
+display:block;
+color:#fff;
+text-decoration:none;
+font-size:20px;
+margin:18px 0;
+border-bottom:1px solid rgba(255,255,255,.15);
+padding-bottom:8px
+}
+
+.close-btn{
+position:absolute;
+top:15px;
+right:20px;
+font-size:28px;
+cursor:pointer
+}
+
+/* HERO */
+.hero{
+padding:70px 20px;
+text-align:center;
+animation:fadeIn 1.2s
+}
+
+.hero h1{
+font-size:38px
+}
+
+.hero h1 span{
+color:#ff8c00
+}
+
+.hero strong{
+display:block;
+margin:15px 0;
+font-size:20px
+}
+
+.hero p{
+font-size:18px;
+opacity:.95
+}
+
+/* BOTÕES */
+.btn{
+display:inline-block;
+margin:20px 8px 0;
+padding:16px 32px;
+border-radius:40px;
+font-weight:700;
+text-decoration:none
+}
+.btn-call{background:#e53935;color:#fff}
+.btn-whats{background:#25d366;color:#fff}
+
+/* SECTIONS */
+.section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto
+}
+
+.section h2{
+text-align:center;
+margin-bottom:30px;
+font-size:32px;
+color:#ff8c00
+}
+
+.section p{
+text-align:center;
+font-size:18px;
+opacity:.95
+}
+
+/* CARDS */
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+margin-top:40px
+}
+
+.card{
+background:rgba(255,255,255,.1);
+border-radius:18px;
+overflow:hidden;
+transition:.4s
+}
+.card:hover{transform:translateY(-8px)}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover
+}
+
+.card div{padding:20px}
+
+.card h3{
+color:#ff8c00;
+margin-bottom:10px
+}
+
+/* HIGHLIGHTS */
+.highlights{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+text-align:center;
+margin-top:40px;
+gap:30px
+}
+
+.highlights div h3{
+font-size:36px;
+color:#ff8c00
+}
+
+/* FOOTER */
+.footer{
+background:rgba(0,0,0,.3);
+padding:30px 20px;
+text-align:center;
+font-size:15px;
+margin-top:60px
+}
+
+/* WHATSAPP */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:#fff;
+padding:14px 22px;
+border-radius:40px;
+font-weight:700;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+z-index:100
+}
+
+@keyframes fadeIn{
+from{opacity:0;transform:translateY(20px)}
+to{opacity:1;transform:translateY(0)}
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+<div class="menu" id="menu">
+<span class="close-btn" onclick="closeMenu()">✕</span>
+
+<img src="https://i.postimg.cc/cJFbPYzC/file-000000009c04720e9c8853e16aab9870.png" class="menu-logo">
+
+<a href="#home" onclick="closeMenu()">Home</a>
+<a href="#sobre" onclick="closeMenu()">Sobre</a>
+<a href="#servicos" onclick="closeMenu()">Serviços</a>
+<a href="#contato" onclick="closeMenu()">Contato</a>
+</div>
+
+<div class="header">
+<img src="https://i.postimg.cc/cJFbPYzC/file-000000009c04720e9c8853e16aab9870.png" class="logo-topo">
+<div class="menu-btn" onclick="openMenu()">☰</div>
+</div>
+
+<div class="header-line"></div>
+
+<section class="hero" id="home">
+<h1>Rota <span>Livre</span> Desentupidora 24h</h1>
+<strong>Desentupidora em Sorocaba com atendimento imediato</strong>
+<p>
+Limpa fossa, desentupimento de ralos, pias e esgoto.<br>
+Atendimento 24 horas em Sorocaba e região.<br>
+<b>Equipe profissional, serviço garantido e preço justo.</b>
+</p>
+<a href="tel:015996076661" class="btn btn-call">Ligar Agora</a>
+<a href="https://wa.me/5515996076661" class="btn btn-whats">WhatsApp</a>
+</section>
+
+<section class="section" id="sobre">
+<h2>Sobre a Rota Livre</h2>
+<p>
+A Rota Livre é uma desentupidora em Sorocaba especializada em atendimento emergencial 24h.
+Trabalhamos com equipamentos modernos, profissionais qualificados e garantia real de serviço.
+</p>
+
+<div class="highlights">
+<div><h3>24h</h3><p>Emergência imediata</p></div>
+<div><h3>✔</h3><p>Garantia no serviço</p></div>
+<div><h3>⚡</h3><p>Chegada rápida</p></div>
+</div>
+</section>
+
+<section class="section" id="servicos">
+<h2>Nossos Serviços</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://desentupidoranazonanorte.srv.br/wp-content/uploads/2022/06/Desentupidora-de-ralo-3.jpg">
+<div>
+<h3>Desentupimento Residencial</h3>
+<p>Pias, ralos, vasos sanitários e caixas de gordura.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://desentupidorprofissional.com.br/wp-content/uploads/2025/01/Desentupimento-em-condominios.webp">
+<div>
+<h3>Comercial e Industrial</h3>
+<p>Lojas, condomínios, empresas e indústrias.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://www.limpafossa.com.br/wp-content/uploads/2018/05/limpeza-de-fossa-abc-paulista-e1672661448801.jpg">
+<div>
+<h3>Limpa Fossa</h3>
+<p>Limpeza de fossa séptica com caminhão especializado.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<h2>Atendimento em Sorocaba e Região</h2>
+<p>
+Atendemos Sorocaba, Votorantim, Itu, Salto e Araçoiaba da Serra.
+Desentupidora 24 horas com atendimento rápido e eficiente.
+</p>
+</section>
+
+<section class="section" id="contato">
+<h2>Contato</h2>
+<p>
+Atendimento 24 horas<br>
+Sorocaba e região<br>
+WhatsApp: (15) 99607-6661
+</p>
+</section>
+
+<div class="footer">
+© 2026 Rota Livre Desentupidora 24h – Todos os direitos reservados
+</div>
+
+<a href="https://wa.me/5515996076661" class="whatsapp-float">WhatsApp</a>
+
+<script>
+function openMenu(){
+menu.classList.add('show');
+overlay.classList.add('show');
+}
+function closeMenu(){
+menu.classList.remove('show');
+overlay.classList.remove('show');
+}
+</script>
+
+</body>
+</html>
